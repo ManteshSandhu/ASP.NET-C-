@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hazel BookStore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" type="text/css" href="css/daviscss.css">
+    </head>
+    <body id="back">
+        <div id="header">
+            <h3>Hazel Macallion Campus Book Store</h3>
+            <h3>Search for a Book below</h3>
+            <img src="images/davis.jpg" alt="logo">
+            </div>
+            <hr>
+        <div>
+            <h3>Search by ID :</h3>
+            <br>
+            <form action="searchBookHaz" method="POST">
+                
+                   Id:<input type="text" name="val">
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+            <br>
+            <hr>
+            <h3>Search by title or Author below: </h3>
+            <form action="searchBookHaz2" method="POST">
+                <select name="option">
+                    <option>Author</option>
+                    <option>Title</option>
+                    
+                </select><br>
+                <input type="text" name="val"><br><br>
+                <input type="submit">
+            </form>
+            
+            <br>
+            <hr>
+            <h3>Search by Quantity available:</h3>
+            <form action="searchBookHaz3" method="POST">
+                Min amount: <input type="text" name="val1"><br><br>
+                Max amount: <input type="text" name="val2"><br><br>
+                <input type="submit">
+            </form>
+        </div><br><br>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+    </body>
+</html>

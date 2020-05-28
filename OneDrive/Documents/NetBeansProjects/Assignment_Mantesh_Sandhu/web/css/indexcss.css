@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Nov-2019, 7:19:31 PM
+    Author     : SandhuM
+*/
+
+#header{
+    text-align: left;
+    height:80px;
+    font-size: 30px;
+    color:#021f4a;
+}
+
+#Descrip{
+    
+    background-color: #021f4a;
+    color:white;
+    height:140px;
+}
+#bottom {
+    
+     background-color: #021f4a;
+    color:white;
+    height:110px;
+    padding-top: 70px;
+    font-size:30px;
+}
+#main{
+    display:grid;
+    padding:5px;
+    grid-template-areas:'traf . haz . davis'
+                        ;
+    text-align: center;  
+   background-color:#7dc0ff;
+   grid-gap:10px;
+   
+}
+#middle {
+    display:grid;
+    grid-template-areas:'get get2 get3';
+    margin:10px;
+    grid-gap:10px;
+    text-align: center;
+   
+}
+
+
+#traf,#davis,#haz {
+    
+   background-color: #021f4a;
+   height:200px;
+   margin-top:  20px;
+   color:white;
+}
+#get, #get2,#get3{
+    background-color: #021f4a;
+    color:white;
+    height:70px;
+   padding-top: 20px;
+   
+}
+a:hover {
+    color:red;
+}
+a {
+    color:teal;
+}
+
+img {
+    float:right;
+    margin-top:-135px;
+}

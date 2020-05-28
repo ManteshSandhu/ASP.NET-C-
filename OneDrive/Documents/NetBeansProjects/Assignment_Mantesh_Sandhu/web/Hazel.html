@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/daviscss.css">
+    </head>
+    <body id="back">
+        <div>
+            <div id="header">
+            <h3>Welcome to Hazel Macallion Campus Book Store</h3>
+            <h3>Add a Book below</h3>
+            <img src="images/davis.jpg">
+            </div>
+            <hr>
+        <div id="form1">
+            <form action="AddBookHazel" method="POST">
+            <br><br>
+            Title: <input type="text" name="title"><br><br>
+            Author: <input type="text" name="author"><br><br>
+            Price: <input type="text" name="price"><br><br>
+            Inventory: <input type="text" name="inventory"><br><br>
+            Related Courses: <input type="text" name="courses"><br>
+            <br>
+            
+            <input type="submit">
+            </form>
+        </div>
+            <br>
+            <div>
+            <form action="GetBookHazel" method="POST">
+                <br>
+            <input type="submit" value="View Books">
+            </form><br>
+            
+            </div>
+            <button onclick="window.location.href ='EditHazel.html';" >Edit Books
+               </button>
+                <button onclick="window.location.href ='DeleteHazel.html';" >Delete Books
+               </button>
+                <button onclick="window.location.href ='PurchaseBookHazel.html';" >Purchase Books
+                </button><br><br>
+            <div id="bottom">
+            
+            <div id="campus">
+            Additional Campus Location - Trafalgar Campus
+            Trafalgar Campus | 1430 Trafalgar Road | Oakville, Ontario L6H 2L1
+
+             <p><a href="Trafalgar.html">
+                    Go to Store</a></p>
+            </div>
+            <div id="campus2">
+            Additional Campus Location - Davis Campus
+            Davis Campus- 7899 McLaughlin Road
+            Brampton, Ontario L6Y 5H9
+            <p><a href="Davis.html">
+                    Go to Store</a></p>
+            </div>
+            </div>
+            <a href="index.html">Home</a>
+    </div>
+        
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Davis Campus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/daviscss.css">
+    </head>
+    <body id="back">
+        
+            
+            <div id="header">
+            <h3>Welcome to Davis Campus Book Store</h3>
+            <h3>Add a Book below</h3>
+            <img src="images/davis.jpg" alt="logo">
+            </div>
+            <hr>
+            <div id="form1">
+            <form action="AddBook" method="POST">
+            <br><br>
+            
+            Title: <input type="text" name="title"><br><br>
+            Author: <input type="text" name="author"><br><br>
+            Price: <input type="text" name="price"><br><br>
+            Inventory: <input type="text" name="inventory"><br><br>
+            Related Courses: <input type="text" name="courses"><br>
+            <br>
+            
+            <input type="submit">
+            </form>
+            </div>
+            <br>
+            <br>
+            <div id="form2">
+            <form action="GetBook" method="POST">
+            
+            <input type="submit" value="View Books">
+            <br><br>
+            </form>
+               <button onclick="window.location.href ='Edit.html';" >Edit Books
+               </button>
+                <button onclick="window.location.href ='delete.html';" >Delete Books
+               </button>
+                <button onclick="window.location.href ='PurchaseBook.html';" >Purchase Books
+               </button>
+        </div>
+            
+        <br>
+        
+        <div id="bottom">
+            
+            <div id="campus">
+            Additional Campus Location - Trafalgar Campus
+            Trafalgar Campus | 1430 Trafalgar Road | Oakville, Ontario L6H 2L1
+
+             <p><a href="Trafalgar.html">
+                    Go to Store</a></p>
+            </div>
+            <div id="campus2">
+            Additional Campus Location - Hazel McCallion Campus
+            4180 Duke of York Blvd
+            Mississauga, Ontario L5B 0G5|
+            <p><a href="Hazel.html">
+                    Go to Store</a></p>
+            </div>
+            </div>
+        <br><a href="index.html">Home</a>
+       
+    </body>
+</html>
